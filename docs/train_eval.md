@@ -50,5 +50,5 @@ sh scripts/evaluation/run_pdm_score_navtest_v1.sh
 sh scripts/evaluation/run_pdm_score_navtest_v2.sh
 ```
 
-The PDM scores for navsimv2 both before and after the [fix](https://github.com/autonomousvision/navsim/issues/151#issue-3379282167) will be reported.
+The EPDM scores for navsimv2 both before and after the [bug fix](https://github.com/autonomousvision/navsim/issues/151#issue-3379282167) will be reported.
 
