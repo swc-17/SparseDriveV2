@@ -1,6 +1,5 @@
 <div align="center">
-<h1>SparseDriveV2</h1>
-<h3>Scoring is All You Need for End-to-End Autonomous Driving</h3>
+<h2>SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving</h2>
 
 [Wenchao Sun](https://scholar.google.com/citations?user=yd-sMoQAAAAJ&hl=en&oi=sra)<sup>1,2</sup>, [Xuewu Lin](https://scholar.google.com/citations?user=pfXQwcQAAAAJ&hl=en&oi=sra)<sup>3</sup>, [Keyu Chen](https://scholar.google.com/citations?hl=en&user=m_bC1VAAAAAJ)<sup>1</sup>, [Zixiang Pei](https://scholar.google.com/citations?user=Lq4s0IsAAAAJ&hl=en&oi=ao)<sup>2</sup>,  \
 [Xiang Li](https://openreview.net/profile?id=~Xiang_LI187)<sup>2</sup>, [Yining Shi](https://scholar.google.com/citations?user=2zOwf-QAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Sifa Zheng](https://www.svm.tsinghua.edu.cn/essay/80/1835.html)<sup>1</sup>
