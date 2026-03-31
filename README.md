@@ -7,7 +7,6 @@
 <sup>1</sup> Tsinghua University \
 <sup>2</sup> Horizon Continental Technology \
 <sup>3</sup> Horizon
-
 </div>
 
 ## News
@@ -15,6 +14,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Results](#results)
 - [Getting Started](#getting-started)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
@@ -27,15 +27,33 @@ End-to-end multi-modal planning has been widely adopted to model the uncertainty
 <img src="assets/overview.png"/>
 </div>
 
+## Results
+<div align="center">
+  <img src="assets/navsimv1.png"/>
+  <img src="assets/navsimv2.png"/>
+  <img src="assets/bench2drive1.png"/>
+  <img src="assets/bench2drive2.png"/>
+</div>
 
 ## Getting Started
 
 - [Getting started from NAVSIM environment preparation](https://github.com/autonomousvision/navsim?tab=readme-ov-file#getting-started-)
 - [Data caching, Training and Evaluation](docs/train_eval.md)
 
+### Checkpoint
+> NAVSIMv1
+| Method | Model Size | Backbone | PDMS | Weight Download |
+| :---: | :---: | :---: | :---:  | :---: |
+| SparseDriveV2 | 50.4M | [ResNet-34](https://huggingface.co/timm/resnet34.a1_in1k) | 92.22 | [Hugging Face](https://huggingface.co/wenchaosun/SparseDriveV2/resolve/main/sparsedrive_navsimv1_92p2.ckpt) |
+
+> NAVSIMv2
+| Method | Model Size | Backbone | EPDMS | Weight Download |
+| :---: | :---: | :---: | :---:  | :---: |
+| SparseDriveV2 | 50.9M | [ResNet-34](https://huggingface.co/timm/resnet34.a1_in1k) | 90.38 | [Hugging Face](https://huggingface.co/wenchaosun/SparseDriveV2/resolve/main/sparsedrive_navsimv2_90p3.ckpt) |
+
 
 ## Acknowledgement
-DiffusionDrive is greatly inspired by the following outstanding contributions to the open-source community: [NAVSIM](https://github.com/autonomousvision/navsim), [DiffusionDriveV2](https://github.com/hustvl/DiffusionDriveV2), [GTRS](https://github.com/NVlabs/GTRS).
+SparseDriveV2 is greatly inspired by the following outstanding contributions to the open-source community: [NAVSIM](https://github.com/autonomousvision/navsim), [DiffusionDriveV2](https://github.com/hustvl/DiffusionDriveV2), [GTRS](https://github.com/NVlabs/GTRS).
 
 ## Citation
 If you find SparseDriveV2 is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
