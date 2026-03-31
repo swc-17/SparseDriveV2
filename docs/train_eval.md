@@ -24,13 +24,14 @@ sh scripts/cache/run_metric_caching_navtest_v2.sh
 ```
 
 # Anchor preparation
-you can download anchor files from [here]() and put to ckpt/kmeans/ or cluster by
+You can download path/velocity/trajectory anchor files from [here](https://huggingface.co/wenchaosun/SparseDriveV2) and put to ckpt/kmeans/ or cluster by
 ```bash
 mkdir -p ckpt/kmeans
 sh scripts/cluster/cluster_anchor.py
 ```
 
-# Download pretrained backbone and released model
+# Checkpoint
+Download [resnet-34 backbone](https://huggingface.co/timm/resnet34.a1_in1k/blob/main/pytorch_model.bin) and put to ckpt/resnet34.bin. Download pretrained weight from [here](https://huggingface.co/wenchaosun/SparseDriveV2).
 
 
 # Training
@@ -49,5 +50,5 @@ sh scripts/evaluation/run_pdm_score_navtest_v1.sh
 sh scripts/evaluation/run_pdm_score_navtest_v2.sh
 ```
 
-The PDM scores for navsimv2 both before and after the [fix]() will be reported.
+The PDM scores for navsimv2 both before and after the [fix](https://github.com/autonomousvision/navsim/issues/151#issue-3379282167) will be reported.
 
