@@ -42,11 +42,13 @@ End-to-end multi-modal planning has been widely adopted to model the uncertainty
 
 ### Checkpoint
 > NAVSIMv1
+
 | Method | Model Size | Backbone | PDMS | Weight Download |
 | :---: | :---: | :---: | :---:  | :---: |
 | SparseDriveV2 | 50.4M | [ResNet-34](https://huggingface.co/timm/resnet34.a1_in1k) | 92.22 | [Hugging Face](https://huggingface.co/wenchaosun/SparseDriveV2/resolve/main/sparsedrive_navsimv1_92p2.ckpt) |
 
 > NAVSIMv2
+
 | Method | Model Size | Backbone | EPDMS | Weight Download |
 | :---: | :---: | :---: | :---:  | :---: |
 | SparseDriveV2 | 50.9M | [ResNet-34](https://huggingface.co/timm/resnet34.a1_in1k) | 90.38 | [Hugging Face](https://huggingface.co/wenchaosun/SparseDriveV2/resolve/main/sparsedrive_navsimv2_90p3.ckpt) |
