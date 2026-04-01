@@ -10,7 +10,7 @@
 </div>
 
 ## News
-* **` April. 1st, 2026`:** We released our paper on [arxiv](), and released the code and weights.
+* **` April. 1st, 2026`:** We released our paper on [arxiv](https://arxiv.org/abs/2603.29163), and released the code and weights.
 
 ## Table of Contents
 - [Introduction](#introduction)
