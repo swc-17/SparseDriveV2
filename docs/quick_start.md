@@ -50,6 +50,7 @@ Download the pretrained weights from [here](https://huggingface.co/wenchaosun/Sp
 ### Check the folder structure
 The folder structure after preparing everything should look like:
 
+'''
 .
 ├── ckpt
 │   ├── resnet50-19c8e357.pth
@@ -73,6 +74,7 @@ The folder structure after preparing everything should look like:
 ├── scenario_runner
 ├── scripts
 ├── tools
+'''
 
 ### Commence training and testing
 ```bash
