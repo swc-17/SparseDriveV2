@@ -10,8 +10,8 @@
 </div>
 
 ## News
-* **` April. 1st, 2026`:** We released our paper on [arxiv](https://arxiv.org/abs/2603.29163), and released the code and weights.
 * **` May. 7th, 2026`:** The [Bench2Drive](https://github.com/swc-17/SparseDriveV2/tree/bench2drive) branch is released.
+* **` April. 1st, 2026`:** We released our paper on [arxiv](https://arxiv.org/abs/2603.29163), and released the code and weights.
 
 ## Table of Contents
 - [Introduction](#introduction)
