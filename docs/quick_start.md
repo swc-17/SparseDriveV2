@@ -67,7 +67,7 @@ The folder structure after preparing everything should look like:
 │   │   ├── kmeans_map_100.npy
 │   │   ├── kmeans_motion_6.npy
 │   │   ├── path_1m_pts_15_1024_b2d_new_ego.npy
-│   │   ├── trajectory_1024_256.npz
+│   │   ├── trajectory_1024_256_b2d.npz
 │   │   └── vel_seq_K256_t30.npy
 ├── leaderboard
 ├── projects
